@@ -1,0 +1,26 @@
+\documentclass[]{article}
+\usepackage[portuguese]{babel}
+
+%opening
+\title{Atv. 1 -- Aprendizado de Máquina -- 2026/1}
+\author{Rodrigo Zonzin }
+
+\begin{document}
+
+\maketitle
+
+O trabalho de \cite{KrivorotkoKabanikhin} busca construir um modelo de Aprendizado de Máquina para a predição de diagnósticos da Diabetes. A proposta principal dos autores é analisar o modelo que melhor se ajusta aos dados experimentais obtidos. Analisou-se os algoritmos como Decision Tree, SVM, Random Forest, Logistic Regression, KNN etc, além de uma ``busca em grade'' para os melhores parâmetros de cada um desses algoritmos. Outra estratégia foi utilizar técnicas de ensemble para combinar algoritmos e tratar desbalanceamento de classes. A melhor combinação foi  obtida pelo XGBoost com a abordagem ADASYN. Para eles, obteve-se 81\% de acurácia, F1-score de 0.81 e AUC de 0.84.
+
+O artigo de \cite{meuartigo1} apresenta o uso do algoritmo Random Forest para a análise do uso e cobertura do solo em uma Unidade de Conservação (UC) e uma Área de Preservação Permanente  (APP) no município de Pouso Alegre, Minas Gerais. A proposta dos autores é classificar os pixels de imagens de satélites em quatro classes de interesse: floresta, pastos, solo exposto e corpos d'água. As imagens datam de períodos climáticos similares de 1994, 2004, 2014 e 2024. Após a classificação, calculou-se a área ocupada por cada classe e se analisou a tendência de ocupação do solo ao longo dos anos. O objetivo principal do trabalho foi analisar a intervenção municipal no reflorestamento nas áreas protegidas. Os dados obtidos demonstraram que a APP apresentou melhoras de 103.54\% e 30.21\% nas ocupações florestal aquática, bem como e redução das áreas de pasto e solo exposto. Os dados referentes à UC demonstraram um ligeiro aumento da ocupação florestal, com manutenção do estágio de preservação ecológica ao longo do período analisado.  
+
+Em temática similar, o trabalho de \cite{JOKARARSANJANI201838} utilizou Autômatos Celulares para predizer o processo de urbanização na capital moçambicana Maputo. O trabalho buscou desenvolver as regras de transição do autômato celular e otimizou os parâmetros de cada relação modelada para obter a combinação que melhor representasse a urbanização observada em anos anteriores. O modelo foi construído em uma plataforma \textit{open source} foram validados para predições de anos anteriores. Analisando o cenário futuro, os autores afirma, que "our predictions exposed a significant amount of urbanisation will evolve over the next years if no significant controlling mechanism to cope with rapid urbanisation is integrated``.
+
+
+
+
+\newpage
+
+\bibliographystyle{acm}
+\bibliography{referencia.bib}
+
+\end{document}
