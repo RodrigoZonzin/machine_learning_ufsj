@@ -1,4 +1,4 @@
 push:
 	git add .
-	git commit -m "$$(date +%Y/%m/%d)$ by $$(whoami)"
+	git commit -m "Commit em $$(date +%Y/%m/%d) by $$(whoami)"
 	git push
